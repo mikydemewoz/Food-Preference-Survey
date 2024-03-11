@@ -98,10 +98,6 @@ class SurveyActivity : AppCompatActivity() {
     }
 
     private fun submitSurvey() {
-        // Implement survey submission logic
-        // Validate survey responses
-
-        // For now, let's just display a toast message indicating submission
         Toast.makeText(this, "Survey submitted!", Toast.LENGTH_SHORT).show()
     }
 }
